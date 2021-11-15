@@ -34,7 +34,7 @@ type position = [#bottom | #static | #top]
 
 type variant = [#dots | #progress | #text]
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~children: 'children=?,
   ~component: Component.t=?,

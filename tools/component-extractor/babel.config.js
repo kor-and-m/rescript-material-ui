@@ -17,13 +17,13 @@ function resolvePath(sourcePath, currentFile, opts) {
 }
 
 const alias = {
-  '@material-ui/core': './core',
-  '@material-ui/docs': './docs',
-  '@material-ui/icons': './icons',
-  '@material-ui/lab': './lab',
-  '@material-ui/styles': './styles',
-  '@material-ui/system': './system',
-  '@material-ui/utils': './utils',
+  '@mui/core': './core',
+  '@mui/docs': './docs',
+  '@mui/icons-material': './icons',
+  '@mui/lab': './lab',
+  '@mui/styles': './styles',
+  '@mui/system': './system',
+  '@mui/utils': './utils',
   docs: './',
   modules: '../modules',
   pages: './pages',

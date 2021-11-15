@@ -21,7 +21,7 @@ module Classes = {
 
 type labelPlacement = [#bottom | #end | #start | #top]
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~checked: bool=?,
   ~classes: Classes.t=?,

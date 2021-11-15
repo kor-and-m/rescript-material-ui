@@ -31,7 +31,7 @@ const RenderColors = () => {
                   )
                   .join('\n')}
             };
-            @module("@material-ui/core/colors") external ${colorName}: t${capitalize(
+            @module("@mui/core/colors") external ${colorName}: t${capitalize(
         colorName,
       )} = "${colorName}";
         `,

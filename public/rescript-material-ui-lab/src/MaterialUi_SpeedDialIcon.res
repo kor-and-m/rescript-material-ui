@@ -19,7 +19,7 @@ module Classes = {
   ) => t = ""
 }
 
-@react.component @module("@material-ui/lab")
+@react.component @module("@mui/lab")
 external make: (
   ~classes: Classes.t=?,
   ~className: string=?,

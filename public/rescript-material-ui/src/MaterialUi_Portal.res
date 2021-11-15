@@ -5,7 +5,7 @@ module Container = {
   external container_func: MaterialUi_Types.any => t = "%identity"
 }
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~children: 'children=?,
   ~container: Container.t=?,

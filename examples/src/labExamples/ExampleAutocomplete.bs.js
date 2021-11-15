@@ -2,8 +2,8 @@
 
 import * as React from "react";
 import * as Belt_Array from "rescript/lib/es6/belt_Array.js";
-import * as Lab from "@material-ui/lab";
-import * as Core from "@material-ui/core";
+import * as Lab from "@mui/lab";
+import * as Core from "@mui/core";
 
 var top100Films = [
   {

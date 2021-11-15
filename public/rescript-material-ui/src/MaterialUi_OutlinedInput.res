@@ -69,7 +69,7 @@ module RowsMax = {
   external string: string => t = "%identity"
 }
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~\"aria-describedby": string=?,
   ~className: string=?,

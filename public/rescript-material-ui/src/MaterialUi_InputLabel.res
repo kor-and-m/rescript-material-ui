@@ -44,7 +44,7 @@ type margin = [#dense]
 
 type variant = [#filled | #outlined | #standard]
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~component: Component.t=?,
   ~filled: bool=?,

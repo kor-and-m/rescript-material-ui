@@ -33,7 +33,7 @@ module Classes = {
 
 type titlePosition = [#bottom | #top]
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~actionIcon: React.element=?,
   ~actionPosition: actionPosition=?,

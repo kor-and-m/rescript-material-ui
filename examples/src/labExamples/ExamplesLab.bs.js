@@ -6,7 +6,7 @@ import * as ExampleRating from "./ExampleRating.bs.js";
 import * as ExampleSkeleton from "./ExampleSkeleton.bs.js";
 import * as ExampleTreeView from "./ExampleTreeView.bs.js";
 import * as MaterialUi_Grid from "rescript-material-ui/src/MaterialUi_Grid.bs.js";
-import * as Core from "@material-ui/core";
+import * as Core from "@mui/core";
 import * as ExamplePagination from "./ExamplePagination.bs.js";
 import * as ExampleAutocomplete from "./ExampleAutocomplete.bs.js";
 import * as ExampleToggleButton from "./ExampleToggleButton.bs.js";

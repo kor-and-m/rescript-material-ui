@@ -12,7 +12,7 @@ following example for how this could look like:
 
 ```rescript
 module SupervisedUserCircleOutlined = {
-    @react.component @module("@material-ui/icons/SupervisedUserCircle")
+    @react.component @module("@mui/icons-material/SupervisedUserCircle")
     external make: (
         ~color: string=?,
         ~className: string=?,

@@ -51,20 +51,20 @@ module Breakpoint = {
     theme->getAsString(breakpoint)->UNSAFE_INTERNAL.stringToBreakpointResult
 }
 
-@module("@material-ui/core/styles")
+@module("@mui/core/styles")
 external useTheme: unit => MaterialUi_Theme.t = "useTheme"
 
-@module("@material-ui/core")
+@module("@mui/core")
 external useMediaQueryString: string => bool = "useMediaQuery"
 
-@module("@material-ui/core")
+@module("@mui/core")
 external useMediaQuery: Breakpoint.t => bool = "useMediaQuery"
 
 module ServerStyleSheets = {
   type t
-  @module("@material-ui/core/styles") @new
+  @module("@mui/core/styles") @new
   external make: unit => t = "ServerStyleSheets"
-  @module("@material-ui/core/styles") @new
+  @module("@mui/core/styles") @new
   external makeWithOptions: {..} => t = "ServerStyleSheets"
 
   @send external collect: (t, React.element) => React.element = "collect"

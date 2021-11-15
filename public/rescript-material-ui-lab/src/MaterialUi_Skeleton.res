@@ -62,7 +62,7 @@ module Width = {
   external string: string => t = "%identity"
 }
 
-@react.component @module("@material-ui/lab")
+@react.component @module("@mui/lab")
 external make: (
   ~animation: Animation.t=?,
   ~children: 'children=?,

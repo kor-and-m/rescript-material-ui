@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import * as ReactDom from "react-dom";
-import * as Core from "@material-ui/core";
+import * as Core from "@mui/core";
 import * as NewImplementation from "./NewImplementation.bs.js";
 import * as NewImplementationPpx from "./NewImplementationPpx.bs.js";
 import * as NewImplementationTheme from "./NewImplementationTheme.bs.js";

@@ -14,7 +14,7 @@ type tBlueGrey = {
   "A400": string,
   "A700": string,
 }
-@module("@material-ui/core/colors") external blueGrey: tBlueGrey = "blueGrey"
+@module("@mui/core/colors") external blueGrey: tBlueGrey = "blueGrey"
 
 type tGrey = {
   "50": string,
@@ -32,7 +32,7 @@ type tGrey = {
   "A400": string,
   "A700": string,
 }
-@module("@material-ui/core/colors") external grey: tGrey = "grey"
+@module("@mui/core/colors") external grey: tGrey = "grey"
 
 type tBrown = {
   "50": string,
@@ -50,7 +50,7 @@ type tBrown = {
   "A400": string,
   "A700": string,
 }
-@module("@material-ui/core/colors") external brown: tBrown = "brown"
+@module("@mui/core/colors") external brown: tBrown = "brown"
 
 type tDeepOrange = {
   "50": string,
@@ -68,7 +68,7 @@ type tDeepOrange = {
   "A400": string,
   "A700": string,
 }
-@module("@material-ui/core/colors") external deepOrange: tDeepOrange = "deepOrange"
+@module("@mui/core/colors") external deepOrange: tDeepOrange = "deepOrange"
 
 type tOrange = {
   "50": string,
@@ -86,7 +86,7 @@ type tOrange = {
   "A400": string,
   "A700": string,
 }
-@module("@material-ui/core/colors") external orange: tOrange = "orange"
+@module("@mui/core/colors") external orange: tOrange = "orange"
 
 type tAmber = {
   "50": string,
@@ -104,7 +104,7 @@ type tAmber = {
   "A400": string,
   "A700": string,
 }
-@module("@material-ui/core/colors") external amber: tAmber = "amber"
+@module("@mui/core/colors") external amber: tAmber = "amber"
 
 type tYellow = {
   "50": string,
@@ -122,7 +122,7 @@ type tYellow = {
   "A400": string,
   "A700": string,
 }
-@module("@material-ui/core/colors") external yellow: tYellow = "yellow"
+@module("@mui/core/colors") external yellow: tYellow = "yellow"
 
 type tLime = {
   "50": string,
@@ -140,7 +140,7 @@ type tLime = {
   "A400": string,
   "A700": string,
 }
-@module("@material-ui/core/colors") external lime: tLime = "lime"
+@module("@mui/core/colors") external lime: tLime = "lime"
 
 type tLightGreen = {
   "50": string,
@@ -158,7 +158,7 @@ type tLightGreen = {
   "A400": string,
   "A700": string,
 }
-@module("@material-ui/core/colors") external lightGreen: tLightGreen = "lightGreen"
+@module("@mui/core/colors") external lightGreen: tLightGreen = "lightGreen"
 
 type tGreen = {
   "50": string,
@@ -176,7 +176,7 @@ type tGreen = {
   "A400": string,
   "A700": string,
 }
-@module("@material-ui/core/colors") external green: tGreen = "green"
+@module("@mui/core/colors") external green: tGreen = "green"
 
 type tTeal = {
   "50": string,
@@ -194,7 +194,7 @@ type tTeal = {
   "A400": string,
   "A700": string,
 }
-@module("@material-ui/core/colors") external teal: tTeal = "teal"
+@module("@mui/core/colors") external teal: tTeal = "teal"
 
 type tCyan = {
   "50": string,
@@ -212,7 +212,7 @@ type tCyan = {
   "A400": string,
   "A700": string,
 }
-@module("@material-ui/core/colors") external cyan: tCyan = "cyan"
+@module("@mui/core/colors") external cyan: tCyan = "cyan"
 
 type tLightBlue = {
   "50": string,
@@ -230,7 +230,7 @@ type tLightBlue = {
   "A400": string,
   "A700": string,
 }
-@module("@material-ui/core/colors") external lightBlue: tLightBlue = "lightBlue"
+@module("@mui/core/colors") external lightBlue: tLightBlue = "lightBlue"
 
 type tBlue = {
   "50": string,
@@ -248,7 +248,7 @@ type tBlue = {
   "A400": string,
   "A700": string,
 }
-@module("@material-ui/core/colors") external blue: tBlue = "blue"
+@module("@mui/core/colors") external blue: tBlue = "blue"
 
 type tIndigo = {
   "50": string,
@@ -266,7 +266,7 @@ type tIndigo = {
   "A400": string,
   "A700": string,
 }
-@module("@material-ui/core/colors") external indigo: tIndigo = "indigo"
+@module("@mui/core/colors") external indigo: tIndigo = "indigo"
 
 type tDeepPurple = {
   "50": string,
@@ -284,7 +284,7 @@ type tDeepPurple = {
   "A400": string,
   "A700": string,
 }
-@module("@material-ui/core/colors") external deepPurple: tDeepPurple = "deepPurple"
+@module("@mui/core/colors") external deepPurple: tDeepPurple = "deepPurple"
 
 type tPurple = {
   "50": string,
@@ -302,7 +302,7 @@ type tPurple = {
   "A400": string,
   "A700": string,
 }
-@module("@material-ui/core/colors") external purple: tPurple = "purple"
+@module("@mui/core/colors") external purple: tPurple = "purple"
 
 type tPink = {
   "50": string,
@@ -320,7 +320,7 @@ type tPink = {
   "A400": string,
   "A700": string,
 }
-@module("@material-ui/core/colors") external pink: tPink = "pink"
+@module("@mui/core/colors") external pink: tPink = "pink"
 
 type tRed = {
   "50": string,
@@ -338,7 +338,7 @@ type tRed = {
   "A400": string,
   "A700": string,
 }
-@module("@material-ui/core/colors") external red: tRed = "red"
+@module("@mui/core/colors") external red: tRed = "red"
 
 type tCommon = {"black": string, "white": string}
-@module("@material-ui/core/colors") external common: tCommon = "common"
+@module("@mui/core/colors") external common: tCommon = "common"

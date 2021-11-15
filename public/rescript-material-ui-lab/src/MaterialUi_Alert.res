@@ -62,7 +62,7 @@ type severity = [#error | #info | #success | #warning]
 
 type variant = [#filled | #outlined | #standard]
 
-@react.component @module("@material-ui/lab")
+@react.component @module("@mui/lab")
 external make: (
   ~action: React.element=?,
   ~children: 'children=?,

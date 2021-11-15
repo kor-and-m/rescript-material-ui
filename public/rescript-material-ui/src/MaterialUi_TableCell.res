@@ -60,7 +60,7 @@ module SortDirection: {
 
 type variant = [#body | #footer | #head]
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~align: align=?,
   ~children: 'children=?,

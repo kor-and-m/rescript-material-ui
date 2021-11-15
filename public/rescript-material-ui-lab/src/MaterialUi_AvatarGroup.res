@@ -12,7 +12,7 @@ module Spacing = {
   external float: float => t = "%identity"
 }
 
-@react.component @module("@material-ui/lab")
+@react.component @module("@mui/lab")
 external make: (
   ~children: 'children=?,
   ~classes: Classes.t=?,

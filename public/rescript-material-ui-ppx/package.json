@@ -18,7 +18,7 @@
   ],
   "description": "This is a ppx for using the withStyles component in ReScript Material-UI",
   "peerDependencies": {
-    "@material-ui/core": "4.11.4",
+    "@mui/core": "^5.0.0-alpha.54",
     "@rescript/react": "^0.10.3",
     "@rescript-material-ui": "^2.1.0",
     "rescript": "^9.1.2"

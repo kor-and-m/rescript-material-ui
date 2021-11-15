@@ -3,8 +3,8 @@
 import * as Curry from "rescript/lib/es6/curry.js";
 import * as React from "react";
 import * as Js_math from "rescript/lib/es6/js_math.js";
-import * as Core from "@material-ui/core";
-import * as Styles from "@material-ui/core/styles";
+import * as Core from "@mui/core";
+import * as Styles from "@mui/core/styles";
 
 function options_generateId(param) {
   return "blasdnsad" + String(Js_math.random_int(0, 100));

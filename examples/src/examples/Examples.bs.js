@@ -12,7 +12,7 @@ import * as ExamplePopover from "./ExamplePopover.bs.js";
 import * as ExampleStepper from "./ExampleStepper.bs.js";
 import * as MaterialUi_Grid from "rescript-material-ui/src/MaterialUi_Grid.bs.js";
 import * as ExampleDashboard from "./ExampleDashboard.bs.js";
-import * as Core from "@material-ui/core";
+import * as Core from "@mui/core";
 import * as ExampleClassOverride from "./ExampleClassOverride.bs.js";
 import * as ExampleTextFieldSize from "./ExampleTextFieldSize.bs.js";
 import * as ExampleThemeProvider from "./ExampleThemeProvider.bs.js";

@@ -99,7 +99,7 @@ module PopperComponent = {
 
 type size = [#medium | #small]
 
-@react.component @module("@material-ui/lab")
+@react.component @module("@mui/lab")
 external make: (
   ~autoComplete: bool=?,
   ~autoHighlight: bool=?,

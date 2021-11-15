@@ -4,17 +4,17 @@ import * as Curry from "rescript/lib/es6/curry.js";
 import * as React from "react";
 import * as MaterialUi from "rescript-material-ui/src/MaterialUi.bs.js";
 import * as MaterialUi_Grid from "rescript-material-ui/src/MaterialUi_Grid.bs.js";
-import * as Lab from "@material-ui/lab";
-import * as Core from "@material-ui/core";
-import FormatBold from "@material-ui/icons/FormatBold";
-import FormatItalic from "@material-ui/icons/FormatItalic";
-import ArrowDropDown from "@material-ui/icons/ArrowDropDown";
-import FormatAlignLeft from "@material-ui/icons/FormatAlignLeft";
-import FormatColorFill from "@material-ui/icons/FormatColorFill";
-import FormatAlignRight from "@material-ui/icons/FormatAlignRight";
-import FormatUnderlined from "@material-ui/icons/FormatUnderlined";
-import FormatAlignCenter from "@material-ui/icons/FormatAlignCenter";
-import FormatAlignJustify from "@material-ui/icons/FormatAlignJustify";
+import * as Lab from "@mui/lab";
+import * as Core from "@mui/core";
+import FormatBold from "@mui/icons-material/FormatBold";
+import FormatItalic from "@mui/icons-material/FormatItalic";
+import ArrowDropDown from "@mui/icons-material/ArrowDropDown";
+import FormatAlignLeft from "@mui/icons-material/FormatAlignLeft";
+import FormatColorFill from "@mui/icons-material/FormatColorFill";
+import FormatAlignRight from "@mui/icons-material/FormatAlignRight";
+import FormatUnderlined from "@mui/icons-material/FormatUnderlined";
+import FormatAlignCenter from "@mui/icons-material/FormatAlignCenter";
+import FormatAlignJustify from "@mui/icons-material/FormatAlignJustify";
 
 var FormatAlignLeftIcon = {};
 

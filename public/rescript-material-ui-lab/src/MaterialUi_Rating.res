@@ -48,7 +48,7 @@ module IconContainerComponent = {
 
 type size = [#large | #medium | #small]
 
-@react.component @module("@material-ui/lab")
+@react.component @module("@mui/lab")
 external make: (
   ~classes: Classes.t=?,
   ~className: string=?,

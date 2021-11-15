@@ -3,7 +3,7 @@
 import * as Curry from "rescript/lib/es6/curry.js";
 import * as React from "react";
 import * as MaterialUi from "rescript-material-ui/src/MaterialUi.bs.js";
-import * as Core from "@material-ui/core";
+import * as Core from "@mui/core";
 
 function ExampleTabs(Props) {
   var match = React.useReducer((function (param, v) {

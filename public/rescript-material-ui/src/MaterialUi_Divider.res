@@ -32,7 +32,7 @@ type orientation = [#horizontal | #vertical]
 
 type variant = [#fullWidth | #inset | #middle]
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~absolute: bool=?,
   ~children: 'children=?,

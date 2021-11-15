@@ -17,7 +17,7 @@ module Classes = {
   ) => t = ""
 }
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~active: bool=?,
   ~children: 'children=?,

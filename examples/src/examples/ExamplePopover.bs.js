@@ -5,7 +5,7 @@ import * as React from "react";
 import * as Belt_Array from "rescript/lib/es6/belt_Array.js";
 import * as Belt_Option from "rescript/lib/es6/belt_Option.js";
 import * as Caml_option from "rescript/lib/es6/caml_option.js";
-import * as Core from "@material-ui/core";
+import * as Core from "@mui/core";
 
 var messages = ([...'养绌聭']);
 

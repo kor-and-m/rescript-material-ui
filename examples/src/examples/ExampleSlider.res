@@ -6,7 +6,7 @@ let useStyles = Styles.makeStyles({
 })
 
 module VolumeUpIcon = {
-  @react.component @module("@material-ui/icons/VolumeUp")
+  @react.component @module("@mui/icons-material/VolumeUp")
   external make: unit => React.element = "default"
 }
 

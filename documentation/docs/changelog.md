@@ -52,7 +52,7 @@ This is the last version with the old package name `@jsiebern/bs-material-ui`.
 - :rocket: Bump to version 1.0.0 of the bindings (Because I think that the
   general way of the bindings won't change much from now on)
 - :rocket: Updated to MaterialUi v3.8.1
-- :rocket: Added bindings to `@material-ui/icons` (needs to be installed
+- :rocket: Added bindings to `@mui/icons-material` (needs to be installed
   separately) **WARNING**: Currently broken (includes the whole icons package,
   fix coming down the road)
 - :rocket: Added properly typed theme (see examples!)

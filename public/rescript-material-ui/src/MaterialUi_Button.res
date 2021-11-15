@@ -93,7 +93,7 @@ module Type = {
 
 type variant = [#contained | #outlined | #text]
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~centerRipple: bool=?,
   ~disableTouchRipple: bool=?,

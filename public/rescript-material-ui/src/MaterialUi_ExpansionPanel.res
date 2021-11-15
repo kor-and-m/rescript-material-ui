@@ -31,7 +31,7 @@ module TransitionComponent = {
   external element: React.element => t = "%identity"
 }
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~component: Component.t=?,
   ~elevation: MaterialUi_Types.Number.t=?,

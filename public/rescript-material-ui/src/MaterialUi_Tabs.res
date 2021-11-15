@@ -53,7 +53,7 @@ type textColor = [#inherit | #primary | #secondary]
 
 type variant = [#fullWidth | #scrollable | #standard]
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~\"aria-label": string=?,
   ~\"aria-labelledby": string=?,

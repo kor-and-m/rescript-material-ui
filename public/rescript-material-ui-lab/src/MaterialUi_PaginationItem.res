@@ -54,7 +54,7 @@ type \"type" = [#page | #first | #last | #next | #previous | #"start-ellipsis" |
 
 type variant = [#text | #outlined]
 
-@react.component @module("@material-ui/lab")
+@react.component @module("@mui/lab")
 external make: (
   ~classes: Classes.t=?,
   ~className: string=?,

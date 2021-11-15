@@ -32,7 +32,7 @@ type placement = [
   | #top
 ]
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~anchorEl: AnchorEl.t=?,
   ~children: 'children=?,

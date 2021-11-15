@@ -57,7 +57,7 @@ module TransitionDuration = {
 
 type variant = [#permanent | #persistent | #temporary]
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~anchor: anchor=?,
   ~\"BackdropProps": {..}=?,

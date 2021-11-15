@@ -101,7 +101,7 @@ const parseInit = () => {
     `
         ${themeContents}
 
-        @module("@material-ui/core/styles") external create: MaterialUi_ThemeOptions.t => t = "createMuiTheme";
+        @module("@mui/core/styles") external create: MaterialUi_ThemeOptions.t => t = "createMuiTheme";
     `,
   );
 };

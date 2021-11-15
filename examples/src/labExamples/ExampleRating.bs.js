@@ -2,8 +2,8 @@
 
 import * as Curry from "rescript/lib/es6/curry.js";
 import * as React from "react";
-import * as Lab from "@material-ui/lab";
-import * as Core from "@material-ui/core";
+import * as Lab from "@mui/lab";
+import * as Core from "@mui/core";
 
 function ExampleRating(Props) {
   var match = React.useReducer((function (param, v) {

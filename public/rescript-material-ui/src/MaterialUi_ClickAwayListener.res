@@ -28,7 +28,7 @@ module TouchEvent: {
   let \"false" = Any(false)
 }
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~children: 'children=?,
   ~disableReactTree: bool=?,

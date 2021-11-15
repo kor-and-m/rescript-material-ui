@@ -11,7 +11,7 @@ type size = [#large | #medium | #small]
 
 type variant = [#outlined | #text]
 
-@react.component @module("@material-ui/lab")
+@react.component @module("@mui/lab")
 external make: (
   ~boundaryCount: MaterialUi_Types.Number.t=?,
   ~classes: Classes.t=?,

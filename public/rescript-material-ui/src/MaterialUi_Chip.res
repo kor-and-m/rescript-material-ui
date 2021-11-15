@@ -80,7 +80,7 @@ type size = [#medium | #small]
 
 type variant = [#default | #outlined]
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~avatar: React.element=?,
   ~children: 'children=?,

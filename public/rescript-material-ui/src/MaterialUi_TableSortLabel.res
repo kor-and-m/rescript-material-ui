@@ -48,7 +48,7 @@ module IconComponent = {
   external element: React.element => t = "%identity"
 }
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~centerRipple: bool=?,
   ~component: Component.t=?,

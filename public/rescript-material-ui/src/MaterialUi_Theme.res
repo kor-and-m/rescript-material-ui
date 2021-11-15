@@ -1281,5 +1281,5 @@ type t_theme = {
 }
 type t = t_theme
 
-@module("@material-ui/core/styles")
+@module("@mui/core/styles")
 external create: MaterialUi_ThemeOptions.t => t = "createMuiTheme"

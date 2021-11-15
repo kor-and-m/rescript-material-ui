@@ -25,7 +25,7 @@ type color = [#grey | #inherit | #primary | #secondary]
 
 type variant = [#default | #outlined]
 
-@react.component @module("@material-ui/lab")
+@react.component @module("@mui/lab")
 external make: (
   ~children: 'children=?,
   ~classes: Classes.t=?,

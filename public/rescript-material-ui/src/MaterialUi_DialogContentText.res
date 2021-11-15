@@ -34,7 +34,7 @@ module Classes = {
   @obj external make: (~root: string=?, unit) => t = ""
 }
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~align: align=?,
   ~className: string=?,

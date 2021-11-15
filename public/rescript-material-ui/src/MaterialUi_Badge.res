@@ -59,7 +59,7 @@ type overlap = [#circle | #rectangle]
 
 type variant = [#dot | #standard]
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~anchorOrigin: AnchorOrigin.t=?,
   ~badgeContent: React.element=?,

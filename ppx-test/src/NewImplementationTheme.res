@@ -14,7 +14,7 @@ module Styles: {
     rounded: string,
   }
   type useStyles = unit => classes
-  @module("@material-ui/core/styles")
+  @module("@mui/core/styles")
   external makeStyles: (. MaterialUi.Theme.t => styles) => useStyles = "makeStyles"
   let useStyles = makeStyles(.theme => {
     root: ReactDOM.Style.make(~width="100%", ~maxWidth="970px", ~margin="0 auto", ()),

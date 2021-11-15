@@ -36,7 +36,7 @@ module Component = {
 
 type fontSize = [#inherit | #default | #small | #large]
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~children: 'children=?,
   ~classes: Classes.t=?,

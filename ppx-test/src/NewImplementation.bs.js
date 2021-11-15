@@ -2,8 +2,8 @@
 
 import * as Curry from "rescript/lib/es6/curry.js";
 import * as React from "react";
-import * as Core from "@material-ui/core";
-import * as Styles from "@material-ui/core/styles";
+import * as Core from "@mui/core";
+import * as Styles from "@mui/core/styles";
 
 var useStyles = Styles.makeStyles({
       root: {

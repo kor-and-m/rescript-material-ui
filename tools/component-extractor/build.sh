@@ -18,10 +18,10 @@ rm -rf ./utils
 cp -R ~/.mui-clone/packages/material-ui-utils/src ./utils
 cp -R ~/.mui-clone/packages/material-ui-utils/macros ./utils/macros
 cp -R ~/.mui-clone/packages/material-ui-utils/src ./utils/src
-rm -rf ./node_modules/@material-ui
-mkdir ./node_modules/@material-ui
-mkdir ./node_modules/@material-ui/utils
-cp -R ~/.mui-clone/packages/material-ui-utils/macros ./node_modules/@material-ui/utils
+rm -rf ./node_modules/@mui
+mkdir ./node_modules/@mui
+mkdir ./node_modules/@mui/utils
+cp -R ~/.mui-clone/packages/material-ui-utils/macros ./node_modules/@mui/utils
 rm -rf ./system
 cp -R ~/.mui-clone/packages/material-ui-system/src ./system
 

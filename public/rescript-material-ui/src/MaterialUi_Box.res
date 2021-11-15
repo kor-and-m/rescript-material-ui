@@ -77,7 +77,7 @@ module Value = {
   external breakpointObj: BreakpointObj.t<t> => t = "%identity"
 }
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~component: option<Component.t>=?,
   ~className: option<string>=?,

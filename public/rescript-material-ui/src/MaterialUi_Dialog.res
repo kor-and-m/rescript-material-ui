@@ -109,7 +109,7 @@ module TransitionDuration = {
   external shape: TransitionDuration_shape.t => t = "%identity"
 }
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~\"BackdropComponent": BackdropComponent.t=?,
   ~closeAfterTransition: bool=?,

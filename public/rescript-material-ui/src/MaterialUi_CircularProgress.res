@@ -42,7 +42,7 @@ module Size = {
 
 type variant = [#determinate | #indeterminate | #static]
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~classes: Classes.t=?,
   ~className: string=?,

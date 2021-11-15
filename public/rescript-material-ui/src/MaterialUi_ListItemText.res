@@ -19,7 +19,7 @@ module Classes = {
   ) => t = ""
 }
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~children: 'children=?,
   ~classes: Classes.t=?,

@@ -2,12 +2,12 @@
 
 import * as Curry from "rescript/lib/es6/curry.js";
 import * as React from "react";
-import * as Core from "@material-ui/core";
-import * as Styles from "@material-ui/styles";
-import Menu from "@material-ui/icons/Menu";
+import * as Core from "@mui/core";
+import * as Styles from "@mui/styles";
+import Menu from "@mui/icons-material/Menu";
 import * as MaterialUi_ThemeHelpers from "rescript-material-ui/src/MaterialUi_ThemeHelpers.bs.js";
-import ChevronLeft from "@material-ui/icons/ChevronLeft";
-import Notifications from "@material-ui/icons/Notifications";
+import ChevronLeft from "@mui/icons-material/ChevronLeft";
+import Notifications from "@mui/icons-material/Notifications";
 
 function px_of_float(x) {
   return String(x | 0) + "px";

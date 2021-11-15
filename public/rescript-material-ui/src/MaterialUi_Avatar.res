@@ -32,7 +32,7 @@ module Component = {
 
 type variant = [#circle | #circular | #rounded | #square]
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~alt: string=?,
   ~children: 'children=?,

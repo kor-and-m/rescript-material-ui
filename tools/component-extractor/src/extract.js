@@ -73,7 +73,7 @@ components.forEach(async (componentPath) => {
   reactAPI.importName = path.parse(componentPath).name;
   reactAPI.styles = styles;
   reactAPI.filename = componentPath.replace(rootDirectory, '');
-  reactAPI.importPath = `@material-ui/${muiSrc}`;
+  reactAPI.importPath = `@mui/${muiSrc}`;
 
   // Inheritance
   const testInfo = await parseTest(reactAPI.filename, muiSrc);

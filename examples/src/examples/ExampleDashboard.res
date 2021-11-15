@@ -106,17 +106,17 @@ let useStyles = Styles.makeStylesWithTheme(theme =>
 )
 
 module MenuIcon = {
-  @react.component @module("@material-ui/icons/Menu")
+  @react.component @module("@mui/icons-material/Menu")
   external make: unit => React.element = "default"
 }
 
 module NotificationsIcon = {
-  @react.component @module("@material-ui/icons/Notifications")
+  @react.component @module("@mui/icons-material/Notifications")
   external make: unit => React.element = "default"
 }
 
 module ChevronLeftIcon = {
-  @react.component @module("@material-ui/icons/ChevronLeft")
+  @react.component @module("@mui/icons-material/ChevronLeft")
   external make: unit => React.element = "default"
 }
 

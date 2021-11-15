@@ -2,8 +2,8 @@
 
 import * as $$Array from "rescript/lib/es6/array.js";
 import * as React from "react";
-import * as Core from "@material-ui/core";
-import * as Styles from "@material-ui/styles";
+import * as Core from "@mui/core";
+import * as Styles from "@mui/styles";
 
 var useStyles = Styles.makeStyles({
       root: {

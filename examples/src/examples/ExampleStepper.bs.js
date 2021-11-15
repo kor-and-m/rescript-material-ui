@@ -3,8 +3,8 @@
 import * as Curry from "rescript/lib/es6/curry.js";
 import * as React from "react";
 import * as Belt_Array from "rescript/lib/es6/belt_Array.js";
-import * as Core from "@material-ui/core";
-import * as Styles from "@material-ui/styles";
+import * as Core from "@mui/core";
+import * as Styles from "@mui/styles";
 
 function getSpacing(theme, num) {
   return String(Curry._1(theme.spacing, num)) + "px";

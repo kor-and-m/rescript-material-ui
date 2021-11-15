@@ -252,7 +252,7 @@ let rewriteMakeStyles = (fields: rawFields, options: option(rawFields)) => {
                     PStr([
                       Str.eval(
                         Exp.constant(
-                          Const.string("@material-ui/core/styles"),
+                          Const.string("@mui/core/styles"),
                         ),
                       ),
                     ]),
@@ -408,7 +408,7 @@ let rewriteMakeStylesWithTheme =
                     PStr([
                       Str.eval(
                         Exp.constant(
-                          Const.string("@material-ui/core/styles"),
+                          Const.string("@mui/core/styles"),
                         ),
                       ),
                     ]),

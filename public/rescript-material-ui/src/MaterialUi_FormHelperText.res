@@ -34,7 +34,7 @@ type margin = [#dense]
 
 type variant = [#filled | #outlined | #standard]
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~children: 'children=?,
   ~classes: Classes.t=?,

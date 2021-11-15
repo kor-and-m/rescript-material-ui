@@ -12,7 +12,7 @@ module Only = {
   external arrayOf: array<only_arrayOf> => t = "%identity"
 }
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~children: 'children=?,
   ~className: string=?,

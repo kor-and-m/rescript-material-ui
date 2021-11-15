@@ -23,7 +23,7 @@ let theme = MaterialUi_Theme.create({
 })
 
 module SupervisedUserCircleIcon = {
-  @react.component @module("@material-ui/icons/SupervisedUserCircle")
+  @react.component @module("@mui/icons-material/SupervisedUserCircle")
   external make: (~color: string=?, ~fontSize: string=?) => React.element = "default"
 }
 

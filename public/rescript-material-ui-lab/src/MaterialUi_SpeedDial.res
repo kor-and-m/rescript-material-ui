@@ -54,7 +54,7 @@ module TransitionDuration = {
   external shape: TransitionDuration_shape.t => t = "%identity"
 }
 
-@react.component @module("@material-ui/lab")
+@react.component @module("@mui/lab")
 external make: (
   ~ariaLabel: string,
   ~children: 'children=?,

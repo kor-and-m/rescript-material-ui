@@ -114,7 +114,7 @@ module ValueLabelFormat = {
   external valueLabelFormat_func: MaterialUi_Types.any => t = "%identity"
 }
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~\"aria-labelledby": string=?,
   ~classes: Classes.t=?,

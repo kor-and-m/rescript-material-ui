@@ -19,7 +19,7 @@ module Component = {
   external element: React.element => t = "%identity"
 }
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~cellHeight: CellHeight.t=?,
   ~children: 'children=?,

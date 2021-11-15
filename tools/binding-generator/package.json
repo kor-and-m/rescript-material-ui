@@ -13,7 +13,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@material-ui/core": "4.11.4",
+    "@mui/core": "^5.0.0-alpha.54",
     "lodash": "~4.17.11",
     "react-dom": "^17.0.2",
     "reason": "^3.3.4",

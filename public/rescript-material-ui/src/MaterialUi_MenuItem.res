@@ -39,7 +39,7 @@ module Value = {
   external arrayOf: array<string> => t = "%identity"
 }
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~alignItems: alignItems=?,
   ~autoFocus: bool=?,

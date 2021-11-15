@@ -42,7 +42,7 @@ type color = [#default | #inherit | #primary | #secondary | #transparent]
 
 type position = [#absolute | #fixed | #relative | #static | #sticky]
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~component: Component.t=?,
   ~elevation: MaterialUi_Types.Number.t=?,

@@ -26,7 +26,7 @@ module Classes = {
 
 type orientation = [#horizontal | #vertical]
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~component: Component.t=?,
   ~elevation: MaterialUi_Types.Number.t=?,

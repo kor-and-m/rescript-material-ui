@@ -12,7 +12,7 @@ module Classes = {
   @obj external make: (~root: string=?, unit) => t = ""
 }
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~component: Component.t=?,
   ~elevation: MaterialUi_Types.Number.t=?,

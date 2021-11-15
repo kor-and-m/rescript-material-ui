@@ -91,7 +91,7 @@ module TransitionDuration = {
 
 type variant = [#menu | #selectedMenu]
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~\"BackdropComponent": BackdropComponent.t=?,
   ~\"BackdropProps": {..}=?,

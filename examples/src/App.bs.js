@@ -3,8 +3,8 @@
 import * as React from "react";
 import * as Examples from "./examples/Examples.bs.js";
 import * as ExamplesLab from "./labExamples/ExamplesLab.bs.js";
-import * as Core from "@material-ui/core";
-import * as Styles from "@material-ui/core/styles";
+import * as Core from "@mui/core";
+import * as Styles from "@mui/core/styles";
 
 function App(Props) {
   return React.createElement(Styles.ThemeProvider, {

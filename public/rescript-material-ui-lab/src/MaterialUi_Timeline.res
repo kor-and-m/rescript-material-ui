@@ -17,7 +17,7 @@ module Classes = {
   ) => t = ""
 }
 
-@react.component @module("@material-ui/lab")
+@react.component @module("@mui/lab")
 external make: (
   ~align: align=?,
   ~children: 'children=?,

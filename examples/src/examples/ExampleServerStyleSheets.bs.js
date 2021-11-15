@@ -2,10 +2,10 @@
 
 import * as React from "react";
 import * as ExampleBox from "./ExampleBox.bs.js";
-import * as Core from "@material-ui/core";
-import * as Styles from "@material-ui/styles";
+import * as Core from "@mui/core";
+import * as Styles from "@mui/styles";
 import * as ServerJs from "react-dom/server.js";
-import * as Styles$1 from "@material-ui/core/styles";
+import * as Styles$1 from "@mui/core/styles";
 
 var useStyles = Styles.makeStyles({
       code: {

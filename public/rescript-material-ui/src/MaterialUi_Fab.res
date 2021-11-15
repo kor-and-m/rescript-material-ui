@@ -55,7 +55,7 @@ type size = [#large | #medium | #small]
 
 type variant = [#extended | #round]
 
-@react.component @module("@material-ui/core")
+@react.component @module("@mui/core")
 external make: (
   ~centerRipple: bool=?,
   ~disableTouchRipple: bool=?,
